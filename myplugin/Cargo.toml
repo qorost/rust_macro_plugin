@@ -1,0 +1,16 @@
+[package]
+name = "myplugin"
+version = "0.1.0"
+authors = ["Zhijian Huang <zjhuang.davis@gmail.com>"]
+
+[lib]
+crate-type = [ "dylib" ]
+path =  "src/lib.rs"
+plugin = true
+
+
+[features]
+debugmyplugin =[]
+
+[dependencies]
+myplugin_support = { path = "support"}

@@ -1,0 +1,6 @@
+[package]
+name = "myplugin_support"
+version = "0.1.0"
+authors = ["Zhijian Huang <zjhuang.davis@gmail.com>"]
+
+[dependencies]

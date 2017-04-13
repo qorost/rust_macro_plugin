@@ -1,0 +1,11 @@
+[root]
+name = "myplugin"
+version = "0.1.0"
+dependencies = [
+ "myplugin_support 0.1.0",
+]
+
+[[package]]
+name = "myplugin_support"
+version = "0.1.0"
+
